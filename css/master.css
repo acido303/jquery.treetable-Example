@@ -1,0 +1,67 @@
+/* TABLE
+ * ========================================================================= */
+table.tblDownloads {
+  border: 1px solid #888;
+  border-collapse: collapse;
+  line-height: 1;
+  margin: 1em auto;
+  width: 100%; 
+}
+
+/* Caption
+ * ------------------------------------------------------------------------- */
+table.tblDownloads caption {
+  font-size: .9em;
+  font-weight: bold;
+}
+
+/* Header
+ * ------------------------------------------------------------------------- */
+table.tblDownloads thead {
+  background: #aaa url(../imgs/bg-table-thead.png) repeat-x top left;
+  font-size: .9em;
+}
+
+table thead tr {
+  text-align: right;
+}
+
+table.tblDownloads thead th {
+  border: 1px solid #888;
+  font-weight: normal;
+  padding: .3em 1.67em .1em 1.67em;
+  text-align: left;
+}
+
+/* Body
+ * ------------------------------------------------------------------------- */
+table.tblDownloads tbody tr td {
+  cursor: default;
+  padding: .3em 1.5em;
+}
+
+table.tblDownloads tbody tr.even {
+  /*background: #f3f3f3;*/
+  background: #ffffff;
+}
+
+table.tblDownloads tbody tr.odd {
+  background: #fff;
+}
+
+table.tblDownloads span {
+  background-position: center left;
+  background-repeat: no-repeat;
+  padding: .2em 0 .2em 1.5em;
+}
+
+/* folders and file types */
+
+table.tblDownloads span.ext_zip {
+  background-image: url(../imgs/zip.gif);
+}
+
+table.tblDownloads span.folder {
+  background-image: url(../imgs/folder.gif);
+}
+
